@@ -1,6 +1,9 @@
 Git add .  ----->  To add all files to stage
 Git commit -m "commit message"  ------>To commit changes to repo
-git remote add origin 'your_url_name'  
+
+//Use below three commands only when we need to push our changes into repo for the first time
+git remote add origin remo-name 'remote-url'  
+git branch -M main
 git push -u origin master
 
 
